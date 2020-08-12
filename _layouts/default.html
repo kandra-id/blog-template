@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
 <!-- include head.html -->
 <head>
-<title>{{ page.title }} | {{ site.title }}</title>
+	<title>
+	{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}
+	</title>
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
 <link href="/" rel="icon" type="image/x-icon"/>
