@@ -2,7 +2,7 @@ title: "Kandra.ID"
 author: "Kandra Wilko"
 email: "halo@kandra.id"
 description: "Kandra Wilko Blog on Github"
-baseurl: "kandra-id-github.io/blog-template"
+baseurl: https://kandra-id-github.io/blog-template
 url: ""
 markdown:           kramdown
 paginate:           5
