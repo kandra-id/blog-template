@@ -3,10 +3,31 @@ layout: default
 ---
 {{ content }}
 
-<ul class="myposts">
-{% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
-{% endfor %}
-</ul>
+<div class="post">
+    <div class="block-image">
+        <a class="thumb" href="#">
+            <img src="/" alt="contoh gambar"/>
+        </a>
+    </div>
+    <article>
+        <div class="date-header-post">
+            <div class="home-post-head">
+                <span class="post-labels">
+                    <a href="#" rel="tag">
+                        pemain
+                    </a>
+                    <a href="#" rel="tag">
+                        piala dunia
+                    </a>
+                </span>
+                <span class="retitle">
+                </span>
+                <div id="meta-post">
+                </div>
+            </div>
+            <div class="resumo">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </article>
+</div>
