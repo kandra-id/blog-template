@@ -3,7 +3,8 @@ author: "Kandra Wilko"
 email: "halo@kandra.id"
 description: "Kandra Wilko Blog on Github"
 baseurl: https://kandra-id-github.io/blog-template
-url: ""
+url: 
+permalink: /:title
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"
