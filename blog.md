@@ -2,6 +2,7 @@
 title: Blog
 layout: home
 ---
+{{ content }}
 <ul>
   {% for post in site.posts %}
     <li>
