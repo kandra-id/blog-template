@@ -1,4 +1,10 @@
 ---
 layout: default
 ---
+{{ content }}
 
+  {% for post in site.posts %}
+    <article>
+      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+    </article>
+  {% endfor %}
