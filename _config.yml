@@ -4,6 +4,7 @@ email: "halo@kandra.id"
 description: "Kandra Wilko Blog on Github"
 baseurl: /blog-template
 url: 
+pages: /:path/:basename/
 permalink: /:title
 markdown:           kramdown
 paginate:           5
